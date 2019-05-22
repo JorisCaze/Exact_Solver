@@ -1,0 +1,38 @@
+/// Input file
+
+----- Space mesh + geometry -----
+Number of mesh                     (N)            [-]
+1000
+Shock tube length                  (L)            [m]
+1.0
+Interface position                 (xd)           [m]
+0.5
+
+----- Time mesh + conditions -----
+Duration of simulation                    (tend)          [s]   
+5.e-4
+Max of iterations Riemann solver          (itMax)         [-]
+100
+
+----- Initial conditions -----
+ - Left Side
+Pressure                   (pL)    [Pa]
+2.e5
+Speed                      (uL)    [m/s]
+0.
+Density                    (roL)   [kg/m3]
+1.2
+
+ - Right Side
+Pressure                  (pR)    [Pa]
+1.e5
+Speed                     (uR)    [m/s]
+0.       
+Density                   (roR)   [kg/m3]
+1.2
+
+----- Fluid EOS (SG) -----
+Gamma        (gama)   [-]
+1.4   
+Pinfini      (pinf)   [Pa]
+0.
